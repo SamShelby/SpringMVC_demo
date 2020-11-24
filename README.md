@@ -10,9 +10,13 @@ Docker Deamon
 
 ### Run Docker Image
 
-1. Clone the repo
+1. Run Container
    ```sh
    docker run --rm -p 8888:8080 samshelby/springdocker_mvcapp
+   ```
+2. Test Model View Controller page
+   ```sh
+   http://localhost:8888/main/
    ```
 ### Download Project and Create Docker Image
 
