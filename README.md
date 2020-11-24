@@ -8,7 +8,13 @@ Intellij project using Maven and Spring
 
 Docker Deamon
 
-### Create and Run Docker Image
+### Run Docker Image
+
+1. Clone the repo
+   ```sh
+   docker run --rm -p 8888:8080 samshelby/springdocker_mvcapp
+   ```
+### Download Project and Create Docker Image
 
 1. Clone the repo
    ```sh
@@ -23,3 +29,5 @@ Docker Deamon
    ```sh
    http://localhost:8888/main/
    ```
+   
+
