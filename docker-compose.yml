@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  mvcapp:
+    ports:
+      - "8888:8080"
+    build:
+      context: ./
+      dockerfile: Dockerfile
